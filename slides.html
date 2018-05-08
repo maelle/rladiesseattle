@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get on your soapbox!</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Maëlle Salmon. R-Ladies Global social master   <i class="fa  fa-twitter "></i> ma_salmon, <i class="fa  fa-github "></i> maelle" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Get on your soapbox!
+## Blog content and promotion
+### Maëlle Salmon. R-Ladies Global social master <br/> <i class="fa  fa-twitter "></i> ma_salmon, <i class="fa  fa-github "></i> maelle
+### 2018/03/15
+
+---
+
+
+
+
+# My place in the R community
+
+
+```r
+library("magrittr"); library("magick")
+row1 &lt;- c(image_read("locke.png"), image_read("rweekly.png")) %&gt;% image_append()
+row2 &lt;- c(image_read("ropensci.png"), image_read("rladies.png")) %&gt;% image_append()
+
+image_blank(225, 200, col = "white") %&gt;%
+  image_composite(row1, offset = "+0+100") %&gt;%
+  image_composite(row2, offset = "+50+25") 
+```
+
+&lt;img src="slides_files/figure-html/unnamed-chunk-1-1.png" width="300" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+
+# My blogging journey
+
+I don't use blogdown yet!
+
+http://www.masalmon.eu/
+
+&lt;iframe src="https://giphy.com/embed/76C4f4bfzbQqI" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/work-share-hard-76C4f4bfzbQqI"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+# What can you blog about?
+
+* Your latest R obsession? Me in http://www.masalmon.eu/2018/02/22/hexcombine/
+
+--
+
+* Something you've just implemented? Omayma Said http://omaymas.github.io/prophet_explore/
+
+--
+
+* Something _you_ like! Kasia Kulma https://kkulma.github.io/2017-12-16-star-wars-vs-star-trek-word-battle/
+
+--
+
+* Fun packages?  Mine Çetinkaya-Rundel's list  http://www2.stat.duke.edu/courses/Fall17/sta112.01/assignment/08-mini-hw.html
+
+---
+
+# What can you blog about?
+
+Things you've just learnt. Edwin Thoen's https://edwinth.github.io/blog-new-things/ says
+
+* _It forces you to study deeply_
+
+* _You understand other learners_
+
+* _You draw attention of experts_
+
+* _You train in being wrong_
+
+
+---
+
+# What can you blog about?
+
+Not necessarily R code!
+
+--
+
+* A list of things that helped you learn Lorna Maria Aine in https://medium.com/@lornamariak/r-libraries-to-aid-you-learn-data-science-in-2018-30eaaf7cc050
+
+--
+
+* Your experience at an event e.g. Jasmine Dumas in https://jasdumas.github.io/2017-05-28-runconf17-experience/
+
+--
+
+* Your experience at work e.g. Julia Silge in https://juliasilge.com/blog/one-year-at-stack/
+
+
+---
+
+# Find inspiration
+
+Read other blogs! 
+
+* R Weekly newsletter https://rweekly.org/
+
+* \#rstats on Twitter https://twitter.com/search?q=%23rstats&amp;src=savs
+
+&lt;iframe src="https://giphy.com/embed/34ZNcoaN5u4hi" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/reading-bored-wallace-and-gromit-34ZNcoaN5u4hi"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+# Explore your idea
+
+* Google it! 
+
+* If you find similar work, link it in your post.
+
+&lt;iframe src="https://giphy.com/embed/10UeedrT5MIfPG" width="480" height="350" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/dancing-happy-cartoons-10UeedrT5MIfPG"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+# About links
+
+Other blog posts, Package docs, anything really.
+
+&lt;blockquote class="twitter-tweet" data-lang="ca"&gt;&lt;p lang="en" dir="ltr"&gt;My favorite thing to do when writing any blog post is linking the heck out of everything because I want every post to be a multi-directional springboard for curious people.&lt;/p&gt;&amp;mdash; Mikhail Popov (@bearloga) &lt;a href="https://twitter.com/bearloga/status/950476076215558144?ref_src=twsrc%5Etfw"&gt;8 de gener de 2018&lt;/a&gt;&lt;/blockquote&gt;
+
+
+---
+
+# Find your own voice
+
+* I'm no writing coach but I'd say, be sincere.
+
+* What language? English or your own? Or both like Daniela Vázquez https://d4tagirl.com/
+
+&lt;iframe src="https://giphy.com/embed/3o6ozsCihBgPhJz52o" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/angrybirds-angry-birds-movie-angrybirdsmovie-3o6ozsCihBgPhJz52o"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+# How to get stuff done?
+
+Proofread and do your best but...
+
+Don't let stress and perfectionism spoil the _fun_.
+
+Do not get too ambitious
+
+🚢 it!
+
+Kasia Kulma's strategy: https://kkulma.github.io/2017-12-29-end-of-year-thoughts/
+
+---
+
+# Store your ideas
+
+* Your usual note taking workflow: notebook, fancy app (Trello?), etc.
+
+* I have a notebook and used to have an empty GitHub repo with ideas as issues.
+
+&lt;iframe src="https://giphy.com/embed/cur2pARDPMbEk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/cur2pARDPMbEk"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+# Store your ideas: Suzan Baert's cupboard
+
+
+&lt;img src="slides_files/figure-html/unnamed-chunk-2-1.png" width="1365" style="display: block; margin: auto;" /&gt;
+
+http://suzan.rbind.io/
+
+---
+
+# My recipe to tweet a blog post
+
+* Title and link!
+
+* \#rstats and other hashtag if needed
+
+* A figure or a gif!
+
+* Emojis!
+
+* Tag package authors? Listen to their feed first
+
+---
+
+# My recipe to tweet a blog post
+
+
+```r
+rtweet::tweet_shot("966799442430054400")%&gt;%
+  magick::image_crop("517x300+0+90")
+```
+
+&lt;img src="slides_files/figure-html/unnamed-chunk-3-1.png" width="689" style="display: block; margin: auto;" /&gt;
+
+---
+# Add your blog to lists!
+
+* https://github.com/sellorm/awesome-blogdown
+
+* https://support.rbind.io/about/
+
+
+---
+
+# Promote your blog: RSS feed
+
+Create its RSS feed
+
+* Submit it to https://rweekly.org/submit (RSS feed or individual links!)
+
+* Submit it to R Bloggers? https://www.r-bloggers.com/add-your-blog/
+
+&lt;iframe src="https://giphy.com/embed/26hitupaLP1ekljJS" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/love-animation-happy-26hitupaLP1ekljJS"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+---
+
+# Take advantage of R-Ladies networks
+
+* Ping your local chapter
+
+* Ping me/R-Ladies Global Twitter account! https://twitter.com/rladiesglobal
+
+---
+
+# The particular case of rOpenSci
+
+If you use one of https://ropensci.org/packages/
+
+Tell us (&lt;i class="fa  fa-twitter "></i>< rOpenSci https://ropensci.org/contact/) and the link will be added to rOpenSci newsletter! https://ropensci.github.io/biweekly/
+
+
+---
+
+# Don't miss this offer!
+
+&lt;blockquote class="twitter-tweet" data-lang="ca"&gt;&lt;p lang="en" dir="ltr"&gt;&amp;quot;if you’re early in your career as a data scientist and you start a data-related blog, tweet me a link at &lt;a href="https://twitter.com/drob?ref_src=twsrc%5Etfw"&gt;@drob&lt;/a&gt; and I’ll tweet about your first post&amp;quot; 👌☄ &lt;a href="https://t.co/FaXrgVcE0P"&gt;https://t.co/FaXrgVcE0P&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies Global (@RLadiesGlobal) &lt;a href="https://twitter.com/RLadiesGlobal/status/930494182027923457?ref_src=twsrc%5Etfw"&gt;14 de novembre de 2017&lt;/a&gt;&lt;/blockquote&gt;
+
+
+---
+
+# Be the blog reader you want to see
+
+* Leave comments: compliments, questions, suggestions, corrections
+
+* Share links with your network!
+
+* Link it back on your blog
+
+
+---
+
+
+
+# Thank you!
+
+https://github.com/maelle/rladiesct
+
+http://www.masalmon.eu/rladiesct/slides
+
+&lt;iframe src="https://giphy.com/embed/l4KibK3JwaVo0CjDO" width="240" height="237" frameBorder="0" class="giphy-embed" allowFullScreen&gt;&lt;/iframe&gt;&lt;p&gt;&lt;a href="https://giphy.com/gifs/afv-funny-fail-lol-l4KibK3JwaVo0CjDO"&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan) by Yihui Xie with the R-Ladies theme by Alison Presmanes Hill. 💜
+
+
+---
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
