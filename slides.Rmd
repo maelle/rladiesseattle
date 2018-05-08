@@ -1,8 +1,8 @@
 ---
 title: "Get on your soapbox!"
-subtitle: "Blog content and promotion"
+subtitle: "`r icon::fa('r')` Blog content and promotion"
 author: "Maëlle Salmon. R-Ladies Global social master <br/> `r icon::fa('twitter')` ma_salmon, `r icon::fa('github')` maelle"
-date: "2018/03/15"
+date: "2018/05/23"
 output:
   xaringan::moon_reader:
     css: ["default", "rladies", "rladies-fonts"]
@@ -39,11 +39,11 @@ image_blank(225, 200, col = "white") %>%
 
 # My blogging journey
 
-I don't use blogdown yet!
+I don't use blogdown yet! https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/
 
 http://www.masalmon.eu/
 
-<iframe src="https://giphy.com/embed/76C4f4bfzbQqI" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/work-share-hard-76C4f4bfzbQqI">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/XIqCQx02E1U9W" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XIqCQx02E1U9W">via GIPHY</a></p>
 
 ---
 
@@ -132,7 +132,9 @@ Other blog posts, Package docs, anything really.
 
 # Find your own voice
 
-* I'm no writing coach but I'd say, be sincere.
+* I'm no writing coach!
+
+* Be _authentic_
 
 * What language? English or your own? Or both like Daniela Vázquez https://d4tagirl.com/
 
@@ -258,13 +260,13 @@ Tell us (`r icon::fa('twitter')`` rOpenSci https://ropensci.org/contact/) and th
 
 # Thank you!
 
-https://github.com/maelle/rladiesct
+https://github.com/maelle/rladiesseattle
 
-http://www.masalmon.eu/rladiesct/slides
+http://www.masalmon.eu/rladiesseattle/slides
 
 <iframe src="https://giphy.com/embed/l4KibK3JwaVo0CjDO" width="240" height="237" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/afv-funny-fail-lol-l4KibK3JwaVo0CjDO">via GIPHY</a></p>
 
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan) by Yihui Xie with the R-Ladies theme by Alison Presmanes Hill. 💜
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan) by Yihui Xie with the R-Ladies theme by Alison Presmanes Hill and using the R package [**icon**](https://github.com/ropenscilabs/icon) by an ozrOpenSci unconf17 team.
 
 
 ---
